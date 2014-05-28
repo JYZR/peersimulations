@@ -6,3 +6,6 @@ node_modules
 *.Rout
 
 *.pdf
+/bin
+.classpath
+.project

@@ -34,6 +34,7 @@ gulp.task('simulate', function() {
     classpath.push('../peersim-vivaldi/bin');
     classpath.push('../peersim-closepeer/bin');
     classpath.push('../peersim-respcoord/bin');
+    classpath.push('bin');
 
     var cp_arg = ' -cp ' + classpath.join(':');
     var class_arg = 'peersim.Simulator';
